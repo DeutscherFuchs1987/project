@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/moon.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<style>
+        
+			.reveal .slides {
+				text-align: center;
+			}
+	
+			.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+				text-transform: none;
+				margin-bottom: 20px;
+				font-size: 40pt;
+			}
+	
+			.reveal p, .reveal ul, .reveal blockquote {
+				text-align: center;
+				margin: 0 auto;
+				max-width: 80%;
+			}
+	
+			.reveal img {
+				max-width: 100%;
+				height: auto;
+				margin: 20px 0;
+			}
+			
+			.reveal blockquote {
+				background: #333;
+				padding: 20px;
+				border-left: 10px solid #ccc;
+				color: #fff;
+			
+			}
+	
+				.reveal blockquote footer {
+					font-size: 0.8em;
+					margin-top: 10px;
+					color: #ccc;
+				}
+			
+			.reveal ul {
+				list-style-type: none;
+				padding: 0;
+			}
+	
+				.reveal ul li {
+					margin: 10px 0;
+				}
+
+
+			@keyframes slide-in {
+  				to {
+    				right: 8%; /* Позиция по центру слайда */
+    				transform: translateX(50%); /* Коррекция для центрирования */
+  				}
+			}
+
+			.port{
+				width: 800px;
+				height: 1000px;
+				position: absolute;
+  				right: -100%; /* Начальная позиция за пределами экрана */
+  				animation: slide-in 1s forwards; /* Анимация при загрузке */
+				z-index: 0; /* Позиция изображения за текстом */
+			}
+			@keyframes slide-in1 {
+  				to {
+    				right: 107%; /* Позиция по центру слайда */
+    				transform: translateX(60%); /* Коррекция для центрирования */
+  				}
+			}
+			.port1{
+				width: 300px;
+				height: 900px;
+				position: absolute;
+  				right: -100%; /* Начальная позиция за пределами экрана */
+  				animation: slide-in1 1s forwards; /* Анимация при загрузке */
+				z-index: 0; /* Позиция изображения за текстом */
+			}
+			@keyframes slide-in2 {
+  				to {
+    				right: 5%; /* Позиция по центру слайда */
+    				transform: translateX(60%); /* Коррекция для центрирования */
+  				}
+			}
+			.port2{
+				width: 800px;
+				height: 900px;
+				position: absolute;
+  				right: -100%; /* Начальная позиция за пределами экрана */
+  				animation: slide-in2 1s forwards; /* Анимация при загрузке */
+				z-index: 0; /* Позиция изображения за текстом */
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Ссылка на призентацию</h1>
+					<img src="img/qr.webp">
+				</section>
+				<section>
+					<h1>Взаимосвязь лингвистики и математики</h1>
+					<p>Роль науки цифр в русском языке</p>
+					<p>Министерство образования Омской области</p>
+					<p>БПОУ «КИТЭК»</p>
+					
+				</section>
+	
+				
+				<section data-transition="zoom">
+					<img src="img/ch.png" class="port" alt="Your Image">
+					<blockquote>
+						<p>Гуманитарные науки … только тогда будут удовлетворять человеческую мысль, когда в движении своём они встретятся с точными науками и пойдут с ними рядом…</p>
+						<footer>А.П. Чехов</footer>
+						
+					</blockquote>
+					
+				</section>
+	
+				
+				<section data-transition="convex">
+					<img src="img/gs.png" class="port1" alt="Your Image">
+					<blockquote>
+						<p>Математика – царица всех наук.</p>
+						<footer>Карл Фридрих Гаусс</footer>
+					</blockquote>
+					
+				</section>
+	
+				
+				<section data-transition="concave">
+					<h2>Русский язык и математика</h2>
+					<p>Русский язык – один из самых высокоразвитых языков мира – тесно и глубоко связан с математикой.</p>
+					
+				</section>
+	
+				
+				<section data-transition="fade">
+					<h2>Цель работы</h2>
+					<p>Выявление взаимосвязи математики и русского языка.</p>
+					
+				</section>
+	
+				
+				<section data-transition="zoom">
+					<h2>Вопросы</h2>
+					<ul>
+						<li>Есть ли связь между математикой и русским языком?</li>
+						<li>В каких разделах лингвистики прослеживается математика?</li>
+					</ul>
+					
+				</section>
+				
+				<section data-transition="convex">
+					<h2>Результаты опроса</h2>
+					<p>Есть ли связь между математикой и русским языком?</p>
+					<ul>
+						<li>Да, есть взаимосвязь – 25%</li>
+						<li>Нет, связи нет – 54%</li>
+						<li>Никогда не задумывались – 21%</li>
+					</ul>
+					
+				</section>
+	
+				
+				<section data-transition="concave">
+					<h2>Результаты опроса</h2>
+					<p>В каких разделах лингвистики прослеживается математика?</p>
+					<ul>
+						<li>Фонетика – 15%</li>
+						<li>Морфология – 11%</li>
+						<li>Синтаксис – 16%</li>
+						<li>Словообразование – 5%</li>
+						<li>Математика не нужна – 42%</li>
+						<li>Затрудняюсь ответить – 11%</li>
+					</ul>
+					
+				</section>
+	
+				
+				<section data-transition="fade">
+					<h2>Математика в русском языке</h2>
+					<p>Математика буквально «пронизывает» русский язык на разных его уровнях: фонетика, словообразование, лексика, грамматика.</p>
+					
+				</section>
+	
+				
+				<section data-transition="zoom">
+					<h2>Графика</h2>
+					<p>Буквы русского алфавита и их симметрия.</p>
+					<ul>
+						<li>Горизонтальная ось симметрии: В, Е, Ж, З, К, Н, О, С, Ф, Х, Э, Ю</li>
+						<li>Вертикальная ось симметрии: А, Д, Ж, Л, М, Н, О, П, Т, Ф, Х, Ш</li>
+						<li>Отсутствие оси симметрии: Б, Г, И, Р, У, Ц, Ч, Я, Щ</li>
+						<li>Наличие обеих осей симметрии: Ж, Н, О, Х, Ф</li>
+					</ul>
+					
+				</section>
+	
+				
+				<section data-transition="convex">
+					<h2>Фонетика</h2>
+					<p>При выполнении фонетического разбора слова указывается количество слогов, букв и звуков.</p>
+					
+				</section>
+	
+				
+				<section data-transition="concave">
+					<h2>Словообразование</h2>
+					<p>Каждая часть слова выделяется графически и имеет своё название. Например, главная часть слова – это корень.</p>
+				   
+				</section>
+	
+				
+				<section data-transition="fade">
+					<h2>Лексика</h2>
+					<p>Слова, в звуковом составе которых содержатся числа: одиночка, семья, трибуна, витрина, история, сторож, тризна и др.</p>
+					
+				</section>
+	
+				
+				<section data-transition="zoom">
+					<h2>Морфология</h2>
+					<p>Ни одна часть речи русского языка не обходится без математики. Например, среди существительных есть такие слова, как: тройка, пятёрка, двойка, двойник.</p>
+					
+				</section>
+	
+				
+				<section data-transition="convex">
+					<h2>Синтаксис</h2>
+					<p>Синтаксический разбор предложений.</p>
+					
+				</section>
+	
+				
+				<section data-transition="concave">
+					<img src="img/tl.png" class="port2" alt="Your Image">
+					<blockquote>
+						<p>Человек есть дробь. Числитель - это сравнительно с другими – достоинства человека; знаменатель - оценка человеком самого себя. </p>
+						<footer>Л.Н. Толстой</footer>
+					</blockquote>
+					
+				</section>
+			</div>
+		</div>
+		<script>
+			const codeEditor = document.getElementById('codeEditor');
+			const resultFrame = document.getElementById('resultFrame');
+		  
+			codeEditor.addEventListener('input', () => {
+			  const code = codeEditor.value;
+		  
+			  
+			  const fullHTML = `
+				<!DOCTYPE html>
+				<html lang="en">
+				<head>
+					<meta charset="UTF-8">
+					<meta name="viewport" content="width=device-width, initial-scale=1.0">
+					<title>Preview</title>
+					<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+				</head>
+				<body>
+					${code}
+				</body>
+				</html>
+			  `;
+		  
+			  
+			  resultFrame.srcdoc = fullHTML;
+			});
+		  </script>
+		  
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			
+			Reveal.initialize({
+				hash: true,
+				progress: true, 
+
+				
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
